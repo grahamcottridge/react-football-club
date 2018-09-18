@@ -9,19 +9,19 @@ a {
     color: inherit;
 }
 
-.link_logo {
+.link-logo {
     display: inline-block;
 }
 
-.bck_blue {
+.bck-blue {
     background: #0d1831;
 }
 
-.bck_lblue {
+.bck-lblue {
     background: #98c5e9;
 }
 
-.img_cover {
+.img-cover {
     background-size: cover !important;
 }
 .container {
@@ -60,19 +60,19 @@ button {
     border-radius: 3px;
 }
 
-.error_label {
+.error-label {
     color: #F44336;
     font-weight: 600;
     margin: 10px 0px;
 }
 
-.success_label {
+.success-label {
     color: #98c5e9;
     font-weight: 600;
     margin: 10px 0px;
 }
 
-.label_inputs {
+.label-inputs {
     font-size: 20px;
     margin: 10px 0px;
     font-weight: 300;
@@ -81,13 +81,13 @@ button {
     display: inline-block;
 }
 
-.split_fields {
+.split-fields {
     margin: 30px 0px;
     padding: 20px 0px;
     border-top: 2px solid #dddddd;
 }
 
-.split_fields.last {
+.split-fields.last {
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -110,11 +110,11 @@ button {
   }
 
 
-.image_upload_container {
+.image-upload-container {
     position: relative;
 }
 
-.image_upload_container .remove {
+.image-upload-container .remove {
     top: 0;
     position: absolute;
     right: 0;
@@ -124,7 +124,7 @@ button {
     padding: 10px;
 }
 
-.not_found_container {
+.not-found-container {
     text-align: center;
     margin-top: 96px;
     padding: 20px;
@@ -148,11 +148,11 @@ footer {
     padding: 30px 0px;
 }
 
-footer .img_cover{
+footer .img-cover{
    margin:0 auto;
 }
 
-footer .footer_discl {
+footer .footer-discl {
     margin: 10px 0px;
 }
 
@@ -161,7 +161,7 @@ footer .footer_discl {
             FEATURED
 ===============================*/
 
-.featured_wrapper {
+.featured-wrapper {
     margin: 0 auto;
     width: 1280px;
     margin-top: 90px;
@@ -169,36 +169,36 @@ footer .footer_discl {
     overflow: hidden;
 }
 
-.featured_stripes {
+.featured-stripes {
     position: relative
 }
-.featured_text {
+.featured-text {
     position: relative;
     font-family: 'Righteous', cursive;
 }
 
 
-.featured_stripes .stripe {
+.featured-stripes .stripe {
     width: 230px;
     height: 1200px;
     position: absolute;
 }
 
-.featured_number {
+.featured-number {
     font-size: 270px;
     color: #ffffff;
     transform: translate(260px,170px);
     position: absolute;
 }
 
-.featured_player {
+.featured-player {
     width: 500px;
     height: 500px;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     position: absolute;
 }
-.featured_first {
+.featured-first {
     position: absolute;
     background: #0e1731;
     color: #ffffff;
@@ -207,7 +207,7 @@ footer .footer_discl {
     padding: 0px 20px;
 }
 
-.featured_second {
+.featured-second {
     position: absolute;
     background: #0e1731;
     color: #ffffff;
@@ -220,24 +220,24 @@ footer .footer_discl {
             MATCHES HOME
 ===============================*/
 
-.home_matches_wrapper {
+.home-matches-wrapper {
     background: #98c5e9;
     margin-top:9px;
     padding: 50px 0px;
 }
 
-.home_matches_wrapper .home_matches {
+.home-matches-wrapper .home-matches {
     flex-wrap: wrap;
     display: flex;
     margin-top: 60px;
 }
 
-.home_matches_wrapper .home_matches .item {
+.home-matches-wrapper .home-matches .item {
     width: 50%;
     margin: 35px 0px;
 }
 
-.home_matches_wrapper .home_matches .item .wrapper {
+.home-matches-wrapper .home-matches .item .wrapper {
     padding-right:30px;
 }
 
@@ -246,57 +246,57 @@ footer .footer_discl {
             MATCHES BLOCK
 ===============================*/
 
-.match_block .match_date{
+.match-block .match-date{
     color:#ffffff;
     font-size:18px;
 }
 
-.match_block .match_wrapper .match_top,
-.match_block .match_wrapper .match_bottom {
+.match-block .match-wrapper .match-top,
+.match-block .match-wrapper .match-bottom {
     display: flex;
 }
-.match_block .match_wrapper .match_bottom {
+.match-block .match-wrapper .match-bottom {
     margin-top: 5px;
 }
 
-.match_block .match_wrapper .match_top .left,
-.match_block .match_wrapper .match_bottom .left {
-    background: #ffffff; 
+.match-block .match-wrapper .match-top .left,
+.match-block .match-wrapper .match-bottom .left {
+    background: #ffffff;
     font-family: 'Righteous', cursive;
     flex-grow: 1;
     margin-right: 5px;
     padding: 10px;
 }
 
-.match_block .match_wrapper .match_top .left div,
-.match_block .match_wrapper .match_bottom .left div {
+.match-block .match-wrapper .match-top .left div,
+.match-block .match-wrapper .match-bottom .left div {
     float:left
 }
 
-.match_block .match_wrapper .match_top .left .icon,
-.match_block .match_wrapper .match_bottom .left .icon {
+.match-block .match-wrapper .match-top .left .icon,
+.match-block .match-wrapper .match-bottom .left .icon {
     width: 50px;
     height: 50px;
     background-size: cover !important;
 }
-.match_block .match_wrapper .match_top .left .team_name,
-.match_block .match_wrapper .match_bottom .left .team_name {
+.match-block .match-wrapper .match-top .left .team-name,
+.match-block .match-wrapper .match-bottom .left .team-name {
     font-size: 30px;
     padding: 6px 10px;
 }
 
 
-.match_block .match_wrapper .match_top .right,
-.match_block .match_wrapper .match_bottom .right { 
+.match-block .match-wrapper .match-top .right,
+.match-block .match-wrapper .match-bottom .right {
     background: #0e1731;
     width: 70px;
     color: #ffffff;
     font-size: 50px;
     text-align: center;
     padding-top: 6px;
-} 
+}
 
-.match_box_big {
+.match-box-big {
     width:100%;
     border-bottom: 2px solid #98c6e9;
     padding: 20px;
@@ -305,35 +305,35 @@ footer .footer_discl {
     clear: both;
 }
 
-.match_box_big .block_wraper {
+.match-box-big .block-wraper {
     display: inline-block;
     margin-right: 50px;
     float: left;
 }
 
-.match_box_big .block {
+.match-box-big .block {
     display: flex;
 }
 
-.match_box_big .icon{
+.match-box-big .icon{
     width: 50px;
     height: 50px;
     background-size: cover !important;
 }
 
-.match_box_big .block .team,
-.match_box_big .block .result {
+.match-box-big .block .team,
+.match-box-big .block .result {
     font-size: 21px;
     line-height: 51px;
     margin-left: 18px;
     font-weight: 300;
 }
 
-.match_box_big .block .result {
+.match-box-big .block .result {
     font-weight: 500;
 }
 
-.block_wraper.nfo {
+.block-wraper.nfo {
     border-left: 1px solid #98c6e9;
     height: 102px;
     padding-left: 10px;
@@ -341,21 +341,21 @@ footer .footer_discl {
     color: #5e5e5e;
 }
 
-.block_wraper.nfo div {
+.block-wraper.nfo div {
     margin: 5px 0px;
 }
 
-.match_filters {
+.match-filters {
      display: flex;
      border-bottom: 1px solid #01285e;
      background: #dff1ff;
 }
-.match_filters .tag {
+.match-filters .tag {
     font-weight: 300;
     margin-bottom: 5px;
     color: #656565;
 }
-.match_filters .option {
+.match-filters .option {
     background: #ffffff;
     padding: 5px 9px;
     border-radius: 3px;
@@ -364,18 +364,18 @@ footer .footer_discl {
     cursor: pointer;
 }
 
-.match_filters .option.active {
+.match-filters .option.active {
     background: #62a2d3;
     color: #fff;
 }
 
-.match_filters_box {
+.match-filters-box {
     padding: 10px 20px;
     border-right: 1px solid #01285e;
     background: #dff1ff;
 }
 
-.match_filters .cont {
+.match-filters .cont {
     display: flex;
 }
 
@@ -385,23 +385,23 @@ footer .footer_discl {
 ===============================*/
 
 
-.home_meetplayers { 
+.home-meetplayers {
     background: #ffffff;
 }
 
-.home_meetplayers_wrapper {
+.home-meetplayers-wrapper {
     padding-bottom: 100px;
     min-height: 600px;
 }
 
-.home_meetplayers .home_card_wrapper {
+.home-meetplayers .home-card-wrapper {
     position: relative;
     float: left;
     width: 630px;
     min-height: 600px;
 }
 
-.home_meetplayers .home_text_wrapper {
+.home-meetplayers .home-text-wrapper {
     float: right;
     width: 390px;
 }
@@ -411,14 +411,14 @@ footer .footer_discl {
 ===============================*/
 
 
-.player_card_wrapper {
+.player-card-wrapper {
     background: #ffffff;
     border: 1px solid #ececec;
     width: 300px;
     padding: 10px 10px 20px 10px;
     font-family: 'Righteous';
 }
-.player_card_wrapper .player_card_thmb {
+.player-card-wrapper .player-card-thmb {
     border: 1px solid #eeeeee;
     width:100%;
     height:250px;
@@ -427,28 +427,28 @@ footer .footer_discl {
     background-size: contain !important;
 }
 
-.player_card_wrapper .player_card_nfo {
+.player-card-wrapper .player-card-nfo {
     position: relative;
 }
-.player_card_wrapper .player_card_number {
+.player-card-wrapper .player-card-number {
     color: #d6ecfe;
     font-size: 185px;
     text-align: right;
     line-height: 160px;
 }
 
-.player_card_wrapper .player_card_name {
+.player-card-wrapper .player-card-name {
     position: absolute;
     bottom: 0px;
 }
 
-.player_card_wrapper .player_card_name span { 
+.player-card-wrapper .player-card-name span {
     display: block;
     font-size: 25px;
     color: #0d1831;
 }
 
-.home_text_wrapper {
+.home-text-wrapper {
     margin-top: 70px;
 }
 
@@ -457,16 +457,16 @@ footer .footer_discl {
          PROMOTION
 ===============================*/
 
-.promotion_wrapper {
+.promotion-wrapper {
     padding: 30px 0px 130px 0px;
 }
 
-.promotion_wrapper .promotion_animation {
+.promotion-wrapper .promotion-animation {
     display: flex;
     padding: 80px 0px 30px 0px;
 }
 
-.promotion_wrapper .promotion_animation .left { 
+.promotion-wrapper .promotion-animation .left {
     text-transform: uppercase;
     text-transform: uppercase;
     font-size: 150px;
@@ -475,31 +475,31 @@ footer .footer_discl {
     color:#d5ebfd;
     line-height: 135px;
 }
-.promotion_wrapper .promotion_animation .left span {
+.promotion-wrapper .promotion-animation .left span {
     display:block;
  }
 
-.promotion_wrapper .promotion_animation .right {
+.promotion-wrapper .promotion-animation .right {
     line-height: 135px;
 }
 
-.promotion_wrapper .promotion_animation .right div{
+.promotion-wrapper .promotion-animation .right div{
     width: 280px;
     height: 280px;
     background-size: contain !important;
 }
 
-.promotion_wrapper .enroll_wrapper {
+.promotion-wrapper .enroll-wrapper {
     text-align: center;
 }
 
-.promotion_wrapper .enroll_title {
+.promotion-wrapper .enroll-title {
     font-family: 'Righteous', cursive;
     font-size: 26px;
     color: #4e4e4e;
 }
 
-.promotion_wrapper .enroll_discl {
+.promotion-wrapper .enroll-discl {
     font-weight: 300;
     font-size: 12px;
     width: 271px;
@@ -507,7 +507,7 @@ footer .footer_discl {
     padding: 10px 0px;
 }
 
-.promotion_wrapper .enroll_input {
+.promotion-wrapper .enroll-input {
     width: 330px;
     margin: 0 auto;
     padding: 10px 0px;
@@ -517,26 +517,26 @@ footer .footer_discl {
          THE MATCHES
 ===============================*/
 
-.the_matches_container {
+.the-matches-container {
     margin-top: 96px;
 }
 
-.the_matches_wrapper {
+.the-matches-wrapper {
     display: flex;
 }
 
-.the_matches_wrapper .left {
+.the-matches-wrapper .left {
     flex-grow: 1;
 }
 
-.the_matches_wrapper .right {
+.the-matches-wrapper .right {
    width:400px;
 }
 
-.league_table_wrapper {
+.league-table-wrapper {
     border-left: 1px solid #98c6e9;
 }
-.league_table_wrapper .title {
+.league-table-wrapper .title {
     padding: 22px;
     font-size: 22px;
     color: #ffffff;
@@ -544,7 +544,7 @@ footer .footer_discl {
     border-bottom: 1px solid #01285e;
 }
 
-.the_matches_wrapper .progress {
+.the-matches-wrapper .progress {
     text-align: center;
     padding: 60px 0px;
 }
@@ -556,66 +556,66 @@ footer .footer_discl {
          ADMIN
 ===============================*/
 
-.admin_container {
+.admin-container {
     margin-top: 96px;
     display:flex;
 }
 
-.admin_container .admin_left_nav {
+.admin-container .admin-left-nav {
     min-height: 100vh;
     background: #282828;
     border-right: 2px solid #01285e;
 }
 
-.admin_container  .admin_right {
+.admin-container  .admin-right {
     flex-grow: 1;
 }
-.admin_container  .admin_progress {
+.admin-container  .admin-progress {
     text-align: center;
     margin: 20px 0px;
 }
 
-.admin_container .matches_tag_red {
+.admin-container .matches-tag-red {
     font-weight: 700;
     color: #F44336;
 }
 
-.admin_container .matches_tag_green {
+.admin-container .matches-tag-green {
     font-weight: 700;
     color: #4CAF50;
 }
 
-.admin_container h2 {
+.admin-container h2 {
     margin: 0px 0px 50px 0px;
     border-bottom: 1px solid #dbdbdb;
     color: #414141;
     font-size: 40px;
 }
 
-.editmatch_dialog_wrapper,
-.editplayers_dialog_wrapper {
+.editmatch-dialog-wrapper,
+.editplayers-dialog-wrapper {
     padding: 20px;
     width: 480px;
 }
 
- 
-.select_team_layout .wrapper{
+
+.select-team-layout .wrapper{
     display: flex;
 }
 
-.select_team_layout .wrapper .left {
+.select-team-layout .wrapper .left {
     flex-grow: 1;
 }
 
-.select_team_layout input[name=result_local_input],
-.select_team_layout input[name=result_away_input] {
+.select-team-layout input[name=result-local-input],
+.select-team-layout input[name=result-away-input] {
     width: 60px;
     text-align: center;
     background: #98c6e9;
     color: #ffffff;
 }
 
-.admin_submit button {
+.admin-submit button {
     font-size: 20px;
     margin: 40px 0px;
     background: #009688;
@@ -625,25 +625,25 @@ footer .footer_discl {
          THE TEAM
 ===============================*/
 
-.the_team_container {
+.the-team-container {
     margin-top: 96px;
     padding: 20px;
     background-size: 5px 5px !important;
     min-height:100vh;
 }
 
-.team_category_wrapper .title {
+.team-category-wrapper .title {
     font-size: 90px;
     margin: 30px 0px;
     font-family: 'Righteous', cursive;
     color: #d5ebfe;
 }
 
-.team_category_wrapper .team_cards {
+.team-category-wrapper .team-cards {
     display: flex;
     flex-wrap: wrap;
 }
-.team_category_wrapper .team_cards .item{
+.team-category-wrapper .team-cards .item{
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -652,30 +652,30 @@ footer .footer_discl {
             SIGN IN
 ===============================*/
 
-.signin_wrapper {
+.signin-wrapper {
     margin-top: 96px;
     padding: 20px;
     min-height: 70VH;
     text-align: center;
 }
 
-.signin_wrapper form {
+.signin-wrapper form {
     width: 350px;
     margin: 0 auto;
 }
 
-.signin_wrapper form button {
+.signin-wrapper form button {
     width: 100%;
     padding: 10px;
 }
 
-.signin_wrapper h2 {
+.signin-wrapper h2 {
     font-family: 'Righteous', cursive;
     color: #98c6e9;
     font-size: 50px;
 }
 
-.user_dashboard {
+.user-dashboard {
     font-size: 60px;
     font-family: 'Righteous', cursive;
     color: #d5ebfe;
