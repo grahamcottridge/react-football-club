@@ -77,7 +77,7 @@ class Stripes extends Component {
 
     render() {
         return (
-            <div className="featured_stripes">
+            <div className="featured-stripes">
                 {this.showStripes()}
             </div>
         );
