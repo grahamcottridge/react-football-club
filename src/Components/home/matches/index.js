@@ -13,6 +13,10 @@ const MatchesHome = () => {
             Matches
           </Tag>
 
+          <Tag>
+            <Block/>
+          </Tag>
+
           <Tag
             bck="#ffffff"
             size="22px"
@@ -22,10 +26,6 @@ const MatchesHome = () => {
           >
             See more matches
           </Tag>
-
-
-
-
 
         </div>
 
