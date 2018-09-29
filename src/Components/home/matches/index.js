@@ -1,5 +1,6 @@
 import React from 'react';
 import { Tag } from '../../ui/misc';
+import Block from './Block';
 
 const MatchesHome = () => {
     return (
