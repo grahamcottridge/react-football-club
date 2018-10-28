@@ -58,7 +58,7 @@ class Enroll extends Component {
             <FormField
               id={'email'}
               formdata={this.state.formdata.email}
-              change={(element) => this.updateForm()}
+              change={(element) => this.updateForm(element)}
 
             />
           </div>
