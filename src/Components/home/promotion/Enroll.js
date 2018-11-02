@@ -81,8 +81,10 @@ class Enroll extends Component {
               change={(element) => this.updateForm(element)}
             />
 
+
             { this.state.formError ?
               <div className='error_label'>Something is wrong ... re-enter details</div>:null}
+              <iv className="sucess-lable">{this.state.formSuccess}</iv>
 
             <button onClick={(event) => this.submitForm(event)}>Enroll</button>
           </div>
