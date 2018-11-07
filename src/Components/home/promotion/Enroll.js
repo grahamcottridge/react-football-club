@@ -46,7 +46,7 @@ class Enroll extends Component {
     })
   }
 
-  resetFormSuccess() {
+  resetFormSuccess(type) {
     const newFormdata = {...this.state.formdata}
     for(let key in newFormdata) {
       newFormdata[key].value = '';
@@ -57,7 +57,7 @@ class Enroll extends Component {
     this.setState({
       formError: false,
       formdata: newFormdata,
-      formSuccess: 'Congratulations!'
+      formSuccess: type ? 'Congratulations!' : 'Already on the database'
 
     });
     this.successMessage();
@@ -84,7 +84,15 @@ class Enroll extends Component {
     }
 
     if(formIsValid){
-      this.resetFormSuccess()
+      firebasePromotions.orderByChild('email').equalTo(dataToSubmit.email).once("value")
+      .then((snapshot) => {
+        if(snapshot.val() === null) {
+          firebasePromotions.push(dataToSubmit);
+          this.resetFormSuccess(true)
+        } else {
+            this.resetFormSuccess(false)
+        }
+      })
 
     } else {
       this.setState({

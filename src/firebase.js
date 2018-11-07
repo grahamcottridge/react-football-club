@@ -19,7 +19,8 @@ const firebasePromotions = firebaseDB.ref('promotions');
 
 export {
   firebase,
-  firebaseMatches
+  firebaseMatches,
+  firebasePromotions
 }
 
 // firebaseDB.ref('matches').once('value')
