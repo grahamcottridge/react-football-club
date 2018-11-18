@@ -40,11 +40,64 @@ class SignIn extends Component {
       }
     }
 
+    updateForm(element) {
+    const newFormdata = {...this.state.formdata}
+    const newElement = {...newFormdata[element.id]}
+
+    newElement.value = element.event.target.value;
+
+    let validData = validate(newElement)
+    newElement.valid = validData[0];
+    newElement.validationMessage = validData[1]
+
+    newFormdata[element.id] = newElement;
+
+    this.setState({
+      formError: false,
+      formdata: newFormdata
+    })
+  }
+
+    submitForm(event) {
+    event.preventDefault();
+
+    let dataToSubmit = {};
+    let formIsValid = true;
+
+    for(let key in this.state.formdata){
+      dataToSubmit[key] = this.state.formdata[key].value;
+      formIsValid = this.state.formdata[key].valid && formIsValid;
+    }
+
+    if(formIsValid){
+
+      } else {
+        this.setState({
+          formError: true
+        })
+      }
+  }
+
 
   render() {
     return (
-      <div>
-        sign in
+      <div className="container">
+        <div className="signin-wrapper" style={{margin: '100px'}}>
+          <form onSubmit={(event) => this.submitForm(event)}>
+            <h2>Please Login</h2>
+              <FormField
+                id={'email'}
+                formdata={this.state.formdata.email}
+                change={(element) => this.updateForm(element)}
+              />
+              <FormField
+                id={'password'}
+                formdata={this.state.formdata.password}
+                change={(element) => this.updateForm(element)}
+              />
+              <button onClick={(event) => this.submitForm(event)}>Login</button>
+          </form>
+        </div>
       </div>
     );
   }
