@@ -9,11 +9,13 @@ import Home from './Components/home';
 import SignIn from './Components/signin';
 
 import Dashboard from './Components/admin/Dashboard';
+import AdminMatches from './Components/admin/matches';
 
 const Routes = (props) => {
   return (
     <Layout>
       <Switch>
+        <PrivateRoutes {...props} path="/admin_matches" exact component={AdminMatches}/>
         <PrivateRoutes {...props} path="/dashboard" exact component={Dashboard}/>
         <PublicRoutes {...props} restricted ={true} path="/sign_in" exact component={SignIn}/>
         <PublicRoutes {...props} restricted ={false} path="/" exact component={Home}/>
