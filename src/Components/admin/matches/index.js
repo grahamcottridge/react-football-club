@@ -9,6 +9,9 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 
+import { firebaseMatches } from '../../../firebase';
+import { firebaseLooper, reserseArray } from '../../ui/misc';
+
 class AdminMatches extends Component {
   render() {
     return (
